@@ -1,0 +1,3 @@
+D:/Louzin_lab/SA-MP/Plugin Development/samp-plugin-json/build/win32-debug/CMakeFiles/ALL_BUILD.dir
+D:/Louzin_lab/SA-MP/Plugin Development/samp-plugin-json/build/win32-debug/CMakeFiles/ZERO_CHECK.dir
+D:/Louzin_lab/SA-MP/Plugin Development/samp-plugin-json/build/win32-debug/samp-plugin-json/CMakeFiles/json.dir
