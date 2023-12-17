@@ -1,8 +1,3 @@
-# samp-plugin-json
-JSON support for Pawn language
-
-## Examples
-```pwn
 #include <a_samp>
 #include "json.inc"
 
@@ -71,4 +66,3 @@ main()
     json_destroy(j3);
     return 0;
 }
-```

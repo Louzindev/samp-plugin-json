@@ -6,8 +6,6 @@
       "hidden": true,
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
-        "NETPP_CUSTOM_INSTALL_DIR": "ON",
-        "NETPP_TESTS_OPT": "ON"
       }
     },
     {
@@ -15,8 +13,6 @@
       "hidden": true,
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Release",
-        "NETPP_CUSTOM_INSTALL_DIR": "OFF",
-        "NETPP_TESTS_OPT": "OFF"
       }
     },
 
@@ -52,7 +48,7 @@
       "name": "windows-base",
       "description": "Target Windows with the Visual Studio development environment.",
       "hidden": true,
-      "generator": "Visual Studio 17 2022",
+      "generator": "Ninja",
       "binaryDir": "${sourceDir}/build/${presetName}",
       "cacheVariables": {
         "CMAKE_C_COMPILER": "cl.exe",
@@ -64,7 +60,7 @@
         "rhs": "Windows"
       },
       "architecture": {
-        "value": "x86",
+        "value": "Win32",
         "strategy": "external"
       }
     },
